@@ -1,0 +1,12 @@
+body {
+	background-color: orange;
+	text-align: justify;
+	font-family: all;
+	font-size: 22px;
+	padding: 50px;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: gray;
+}
