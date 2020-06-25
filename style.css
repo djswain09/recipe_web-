@@ -1,12 +1,98 @@
-body {
+body{
+
 	background-color: orange;
 	text-align: justify;
 	font-family: all;
 	font-size: 22px;
-	padding: 50px;
+	padding: none;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	color: white;
+	letter-spacing: 1px;
+	display: inline-grid;
+	width: 90%;
 }
 footer{
+
 	width: 100%;
 	text-align: center;
-	background-color: gray;
+	background-color: orange;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 10px;
+    font-weight: initial;
+    padding-top: 120px;
+
+}
+
+
+h1{
+
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+	letter-spacing: 0px;
+}
+
+
+h2{
+
+	text-align: center;
+	text-decoration: underline;
+	color: gray;
+	letter-spacing: 0px;
+}
+
+
+.like_it_most{
+
+	width:  68%;
+
+}
+
+
+.video1{
+
+    text-align: center;
+}
+
+
+.image1{
+
+	text-align: center;
+	padding: 2px;
+}
+
+
+.number{
+
+	color: black;
+	font-size: 30px;
+}
+
+#ordered-list{
+	list-style-type: lower-roman;
+	color: black;
+
+}
+
+#unordered-list{
+
+	list-style: none;
+}
+
+p #number2{
+
+	font-style: italic;
+}
+
+p #underline{
+
+text-decoration: underline;
+}
+
+p .red{
+	color: red;
 }
