@@ -5,27 +5,31 @@ body{
 	font-family: all;
 	font-size: 22px;
 	padding: none;
-	padding-top: 50px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 0px;
 	color: white;
 	letter-spacing: 1px;
 	display: inline-grid;
-	width: 90%;
+	width: 100%;
+	margin: 0;
+	border: 0;
+
 }
+
+
 footer{
 
 	width: 100%;
+	height:50px;
 	text-align: center;
-	background-color: orange;
-    color: black;
+	background-color: #666666;
+    color: #ffffff;
     font-size: 16px;
     letter-spacing: 10px;
     font-weight: initial;
-    padding-top: 120px;
+    padding: 20px;
+    margin: 50px 0px 0px 0px;
 
 }
+
 
 
 h1{
@@ -46,11 +50,24 @@ h2{
 }
 
 
+nav{
+	display: flex;
+}
+
+#full-paragraph{
+
+	margin: 60px 0px 20px 100px;
+}
+
+
 #like_it_most{
 
 	width:  68%;
 	list-style: none;
+	margin: 20px 0px 20px 120px;
 }
+
+
 #like_it_most li::before{
 	content: "\2022";
 	color: black;
@@ -82,12 +99,14 @@ h2{
 #ordered-list{
 	list-style-type: lower-roman;
 	color: black;
+	margin: 20px 0px 20px 120px;
 
 }
 
 #unordered-list{
 
 	list-style: none;
+	margin: 20px 0px 20px 120px;
 }
 
 
@@ -98,9 +117,47 @@ p #number2{
 
 p #underline{
 
-text-decoration: underline;
+   text-decoration: underline;
 }
 
 p .red{
 	color: red;
+}
+
+#top{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: bolder;
+
+}
+
+
+nav ul{
+
+    display: flex;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+nav{
+	height: 50px;
+	background-color: white;
+	width: 100%;
+	line-height: 5px;
+
+}
+
+nav ul li{
+	margin: 0px 10px;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	justify-content: center;
+	
 }
