@@ -10,13 +10,14 @@ body{
 	display: inline-grid;
 	margin: 0px;
 	border: 0px;
+	width: auto;
 
 }
 
 
 footer{
 
-	width: 100%;
+	width: auto;
 	height:auto;
 	text-align: center;
 	background-color: #666666;
@@ -37,6 +38,7 @@ h1{
 	text-decoration: underline;
 	color: black;
 	letter-spacing: 0px;
+	width: auto;
 }
 
 
@@ -51,7 +53,7 @@ h2{
 
 #nav{
 
-	width: 100%;
+	width: auto;
 }
 
 
@@ -134,7 +136,7 @@ p .red{
 
 #full-paragraph{
 
-	margin: 60px 0px 20px 100px;
+	margin-left: 80px;
 }
 
 
